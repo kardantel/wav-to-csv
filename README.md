@@ -7,6 +7,7 @@ This repository contains a simple but very functional code that reads audio file
 - If you do `toCSV = True`, the audios are saved in CSV format;
 - If you do `toTXT = True`, the audios are saved in TXT format;
 - The `wav2csv` method returns the created dataframe.
+- All NaN values are changed with zero (0).
 
 ![](https://i.imgur.com/9Pd0bj7.png)
 
